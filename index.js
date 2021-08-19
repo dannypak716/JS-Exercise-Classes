@@ -28,6 +28,7 @@ class Airplane {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 */
 
+
 /*
   TASK 1
     - Write a Person class whose constructor initializes `name` and `age` from arguments.
@@ -40,6 +41,7 @@ class Airplane {
     - Give instances of Person a method `.toString()`:
         + It should return a string with `name` and `age`. Example: "Mary, 50"
 */
+
 
 class Person {
   constructor(name, age){
@@ -59,6 +61,7 @@ class Person {
     return `${this.name}, ${this.age}`;
   }
 }
+
 
 /*
   TASK 2
@@ -193,6 +196,7 @@ class Student extends Lambdasian {
         + `standUp` a method that takes in a slack channel and returns `{name} announces to {channel}, @channel standy times!`
         + `debugsCode` a method that takes in a student object and a subject and returns `{name} debugs {student.name}'s code on {subject}`
 */
+
 class ProjectManager extends Instructor{
    constructor(atrs){
      super(atrs);
@@ -206,6 +210,8 @@ class ProjectManager extends Instructor{
      return `${this.name} debugs ${student.name}'s code on ${subject}`;
    }
 }
+
+
 /*
   STRETCH PROBLEM (no tests!)
     - Extend the functionality of the Student by adding a prop called grade and setting it equal to a number between 1-100.
